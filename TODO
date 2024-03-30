@@ -1,12 +1,12 @@
 ## Backend (Node.js/Express.js)
 
 1. **Set up the project**
-   - Initialize a new Node.js project with `npm init`
-   - Install necessary dependencies (express, mongoose, cors, etc.)
-   - Set up the entry point file (e.g., `app.js` or `server.js`)
+   - Initialize a new Node.js project with `npm init` ✅
+   - Install necessary dependencies (express, mongoose, cors, etc.)✅
+   - Set up the entry point file (e.g., `app.js` or `server.js`)✅
 
 2. **Configure MongoDB**
-   - Set up a MongoDB database (locally or use a cloud service like MongoDB Atlas)
+   - Set up a MongoDB database (locally or use a cloud service like MongoDB Atlas)✅
    - Connect to the database using Mongoose
 
 3. **Define the data models**
