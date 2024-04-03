@@ -10,26 +10,26 @@
    - Connect to the database using Mongoose
 
 3. **Define the data models**
-   - Create Mongoose schema and model for blog posts
-   - Define necessary fields (title, content, author, date, etc.)
+   - Create Mongoose schema and model for blog posts ✅
+   - Define necessary fields (title, content, author, date, etc.) ✅
 
 4. **Set up the API routes**
-   - Create routes for CRUD operations on blog posts
+   - Create routes for CRUD operations on blog posts ✅
    - Define routes for authentication (if needed)
 
 5. **Implement the API controllers**
-   - Write controller functions for handling API routes
+   - Write controller functions for handling API routes 
    - Implement CRUD operations for blog posts
    - Implement authentication logic (if needed)
 
 6. **Configure middleware**
-   - Set up middleware for parsing request body
+   - Set up middleware for parsing request body ✅
    - Configure CORS middleware
    - Add any other necessary middleware
 
 7. **Set up the server**
-   - Start the server and listen on a specified port
-   - Handle error cases and logging
+   - Start the server and listen on a specified port ✅
+   - Handle error cases and logging ✅
 
 8. **Test the API**
    - Use a tool like Postman or cURL to test the API endpoints
