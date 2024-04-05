@@ -14,6 +14,7 @@ function BlogList(){
     return(
         <div>
             <h1>Blog List</h1>
+            <h1>Hello from Blog list</h1>
             {blogs.map(blog => {
                 <div key={blog._id}>
                     <h2>{blog.title}</h2>

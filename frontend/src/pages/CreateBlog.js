@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import axios from 'axios';
-
+import '../styles/CreateBlog.css'
 function CreateBlog(){
     const [title, setTitle] = useState('');
     const [content,setContent] = useState('');
@@ -8,15 +8,19 @@ function CreateBlog(){
 
     const handleSubmit = e => {
         e.preventDefault(); 
-        const newBlog = {title, contest, author};
+        const newBlog = {title, content, author};
+        console.log(newBlog.title);
+        console.log(newBlog.content);
+        console.log(newBlog.author);
         axios.post('/routes/posts', newBlog)
         .then(res => console.log(res.data))
         .catch(err => console.log(err));
     };
 
     return(
-        <div>
+        <div className="container">
             <h1>Create Blog</h1>
+            
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="title">Title:</label>

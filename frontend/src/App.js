@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import './styles/App.css';
 import React from "react";
 import {BrowserRouter as Router} from 'react-router-dom';
@@ -17,10 +16,10 @@ function App() {
       <div className='App'>
         <Header />
         <Routes>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/blogs" component={BlogList}/>
-          <Route exact path="/blog/:id" component={BlogDetails}/>
-          <Route exact path="/create" component={CreateBlog}/>
+          <Route path="/" element={<Home />}/>
+          <Route path="/blogs" element={<BlogList />}/>
+          <Route path="/blog/:id" element={<BlogDetails />}/>
+          <Route path="/create" element={<CreateBlog />}/>
         </Routes>
         <Footer />
       </div>
@@ -28,4 +27,6 @@ function App() {
   );
 }
 
+//const root = ReactDOM.createRoot(document.getElementById('root'));
+//root.render(<App />);
 export default App;
